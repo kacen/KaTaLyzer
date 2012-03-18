@@ -52,7 +52,7 @@ $(document).ready(function(){
 			$div.html( hours + ' h '+ minutes + ' min'  );
                 }else{
 			if($div.length == 0){
-                        	$(this).html('<div style="margin-left:'+x+'px;height:100%;width:1px;background:cyan;opacity:0.4;text-align:right;owerflow:hidden;color:black;"></div>');
+                        	$(this).html('<div style="margin-left:'+x+'px;height:100%;width:1px;background:red;opacity:0.4;text-align:right;owerflow:hidden;color:black;"></div>');
 			}else{
 				$div.css({'margin-left':x+'px','width':'1px'});
 			}
